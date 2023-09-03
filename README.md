@@ -23,6 +23,7 @@ Grindwall is an ML based Firewall System that uses a machine learning model to f
 <li>requirements.txt = Python Requirements for running the script
 <li>sqlInjection.txt = Wordlist containing payloads for SQL injection attacks used for dataset preparation
 <li>test.csv = Dataset used for testing the model
+<li>gring_gui.py = Scipt to run Grindwall as GUI
 
 
 </ol>
@@ -42,6 +43,12 @@ Clone this Repo
 <br>
 <img src="./images/image1.png" alt="Initilisation">
 <br>
+<li>Alternatively you can also run the GUI version of Grindwall using :
+<br></br><br></br>
+```python gring_gui.py```
+<br></br>
+<img src="./images/image5.png" alt="grindwall GUI">
+<br></br><br></br>
 <li> Once the firewall is up and running configure your browser or computer to utilize proxy server running on port 1234 ( You can change this setting in grindwall.py file). <br>
 You can  use windows proxy settings by accessing <br>
 Settings > Network And Internet > Proxy > Enable proxy with 
@@ -73,5 +80,6 @@ Or you can use extensions like <a href="https://chrome.google.com/webstore/detai
 <li> File Inclusion
 <li> Command Injections
 <li> Support For HTTPS connections
+<li> Comprehensive GUI
 
 
