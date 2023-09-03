@@ -1,4 +1,6 @@
 pycaret
 urllib3
 pandas
-
+tk
+customtkinter
+logging

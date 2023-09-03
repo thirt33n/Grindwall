@@ -5,7 +5,15 @@ import http.cookiejar
 import sys
 from pycaret.classification import *
 import pandas as pd
+import logging
 import re
+from datetime import datetime
+
+
+
+#Logging
+logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(message)s')  
+
 
 model = load_model('model1_grindwall')
 
@@ -43,59 +51,69 @@ class SimpleHttpProxy(SimpleHTTPRequestHandler):
     
 
     def do_GET(self) -> None:
+        try:
+            body=''
+            path = self.path
+            method = self.command
+            full_url = f'{path}'
+            print(full_url)
+            
+            response = request.urlopen(full_url)
+            content = response.read()
 
-        body=''
-        path = self.path
-        method = self.command
-        full_url = f'{path}'
-        print(full_url)
-        
-        response = request.urlopen(full_url)
-        content = response.read()
-
-        inp = extractDF(method,path,body)
-        # print(inp)
-        pred = prediction(inp)
-        # grind = pred['predition_label']
-        print(pred)
-        pp = pred['prediction_label'].to_string()
-        print(pp)
-        # pred = 'bad'
-        if 'bad' in pp:
-            self.send_response(403)
-            self.end_headers()
-            self.wfile.write(b"Blocked by THE GRINDWALL")
-        else:
-            self.send_response(200)
-            self.end_headers()
-            self.wfile.write(content)
+            inp = extractDF(method,path,body)
+            # print(inp)
+            pred = prediction(inp)
+            # grind = pred['predition_label']
+            print(pred)
+            pp = pred['prediction_label'].to_string()
+            # print(pp)
+            # pred = 'bad'
+            log_message = f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} - GET Prediction: {pred.to_string()}"
+            logging.info(log_message)
+            if 'bad' in pp:
+                self.send_response(403)
+                self.end_headers()
+                self.wfile.write(b"Blocked by THE GRINDWALL")
+            else:
+                self.send_response(200)
+                self.end_headers()
+                self.wfile.write(content)
+        except Exception as e:
+            logging.error(f"Error in the GET request: str{e}")
 
     def do_POST(self)-> None:
-        content_length = int(self.headers['Content-Length'])
-        post_body = self.rfile.read(content_length).decode('utf-8')
-        path = self.path
-        method = self.command
-        full_url = f'{path}'
-        body = post_body
-        response = request.urlopen(full_url)
-        content = response.read()
+        
+        try:
+            content_length = int(self.headers['Content-Length'])
+            post_body = self.rfile.read(content_length).decode('utf-8')
+            path = self.path
+            method = self.command
+            full_url = f'{path}'
+            body = post_body
+            response = request.urlopen(full_url)
+            content = response.read()
 
-        inp = extractDF(method,path,body)
-       
-        pred = prediction(inp)
-       
-        print(pred)
-        pp = pred['prediction_label'].to_string()
-        print(pp)
-        # pred = 'bad'
-        if 'bad' in pp:
-            self.send_response(403)
-            self.end_headers()
-            self.wfile.write(b"Blocked by THE GRINDWALL")
-        else:
-            self.send_response(200)
-            self.end_headers()
-            self.wfile.write(content)
+            inp = extractDF(method,path,body)
+        
+            pred = prediction(inp)
+        
+            print(pred)
+            log_message = f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} - POST Prediction: {pred.to_string()}"
+            logging.info(log_message)
+            pp = pred['prediction_label'].to_string()
+            # print(pp)
+            # pred = 'bad'
+            if 'bad' in pp:
+                self.send_response(403)
+                self.end_headers()
+                self.wfile.write(b"Blocked by THE GRINDWALL")
+            else:
+                self.send_response(200)
+                self.end_headers()
+                self.wfile.write(content)
+        except Exception as e:
+            logging.error(f"Error in POST requests: {str(e)}")
 
 
 if __name__ == '__main__':
