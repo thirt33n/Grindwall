@@ -77,7 +77,7 @@ Or you can use extensions like <a href="https://chrome.google.com/webstore/detai
 
 ### Support for other Web Vulnerabilities Including 
 
-<li> Cross Site Scripting
+<li> Cross Site Scripting = Completed
 <li> File Inclusion
 <li> Command Injections
 <li> Support For HTTPS connections
