@@ -15,13 +15,38 @@ from datetime import datetime
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(message)s')  
 
 
-model = load_model('model1_grindwall')
+model = load_model('model2_grindwall')
 
 cookies = http.cookiejar.CookieJar()
 
 
 
 bad_words = ['sleep', 'drop', 'uid', 'select', 'waitfor', 'delay', 'system', 'union', 'order by', 'delete', 'group by', 'insert', 'or']
+xss = ['script','img','a','javascript','svg','onclick']
+
+
+def regex_xss_check(path):
+     
+    xss_patterns = [
+        r'<script\s[^>]*>[\s\S]*?<',
+        r'(on\w+)=["\'](.*?)["\']',
+        r'<img\s[^>]*\son\w+=["\'](.*?)["\'][^>]*>',
+        r'href=["\'](javascript:[^"\']+)["\']',
+        r'\bjavascript:\s*[^;]+;'
+    ]
+    count = 0
+     
+
+    for pattern in xss_patterns:
+        if re.search(pattern, path):
+            count=count+1
+            
+
+    return count
+
+
+
+
 
 def extractDF(method,path,body):
     path = urllib.parse.unquote(path)
@@ -30,11 +55,18 @@ def extractDF(method,path,body):
     dashes = path.count('--') + body.count('--')
     braces = path.count('{') + path.count('}') + path.count('(') + body.count('{') + body.count('}') + body.count('(')
     spaces = path.count(' ') + body.count(" ")
+    tags = path.count('<') + path.count('>')+ body.count('<')+body.count('>')
+    colons = path.count(';')+body.count(';')
+    backtick = path.count('`')+body.count('`')
     bad_words_count1 = sum(1 for word in bad_words if re.search(r'\b' + re.escape(word) + r'\b', path, re.IGNORECASE))
     bad_words_count2 = sum(1 for word in bad_words if re.search(r'\b' + re.escape(word) + r'\b', body, re.IGNORECASE))
+    xss_count1 = sum(1 for word in xss if re.search(r'\b' + re.escape(word) + r'\b', path, re.IGNORECASE))
+    xss_count2 = sum(1 for word in xss if re.search(r'\b' + re.escape(word) + r'\b', body, re.IGNORECASE))
     bad_words_count = bad_words_count1+ bad_words_count2
-    datas = [method,path,body,single_quotes,double_quotes,dashes,braces,spaces,bad_words_count]
-    input = pd.DataFrame([datas], columns=['Method','Path','Body','Single_q', 'Double_q', 'Dashes', 'Braces', 'Spaces', 'Bad_Words'])
+    xss_count = xss_count1+xss_count2
+    xss_check = regex_xss_check(path)
+    datas = [single_quotes, double_quotes, dashes, braces, spaces,tags,colons,backtick, bad_words_count,xss_check,xss_count]
+    input = pd.DataFrame([datas], columns=['Single Quotes', 'Double Quotes', 'Dashes', 'Braces', 'Spaces','Tags','Colons','Backtick', 'Bad Words','XSS Check','XSS Word'])
     return input
 
 def prediction(input):
@@ -62,13 +94,12 @@ class SimpleHttpProxy(SimpleHTTPRequestHandler):
             content = response.read()
 
             inp = extractDF(method,path,body)
-            # print(inp)
+            
             pred = prediction(inp)
-            # grind = pred['predition_label']
+            
             print(pred)
             pp = pred['prediction_label'].to_string()
-            # print(pp)
-            # pred = 'bad'
+            
             log_message = f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} - GET Prediction: {pred.to_string()}"
             logging.info(log_message)
             if 'bad' in pp:

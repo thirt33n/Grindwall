@@ -16,7 +16,7 @@ Grindwall is an ML based Firewall System that uses a machine learning model to f
 ## Contents:
 
 <ol>
-<li>main1.csv =  Dataset for training the model
+<li>full_xss_sqli_dataset.csv =  Dataset for training the model
 <li>model1_grindwall.pkl  = The saved model checkpoint which is loaded into the script for use in the firewall
 <li>network_sec.ipynb = Notebook file used for creating the model and other operations related to ML
 <li>grindwall.py = Main Script used to setup the firewall
@@ -24,7 +24,8 @@ Grindwall is an ML based Firewall System that uses a machine learning model to f
 <li>sqlInjection.txt = Wordlist containing payloads for SQL injection attacks used for dataset preparation
 <li>test.csv = Dataset used for testing the model
 <li>gring_gui.py = Scipt to run Grindwall as GUI
-
+<li>model2_grindwall = The saved model Checkpoint, which filters sql injections and XSS payloads
+<li>xss_payloads.txt = Wordlist containing XSS payloads
 
 </ol>
 
