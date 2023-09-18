@@ -2689,3 +2689,1792 @@ pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.
 2023-09-07 11:38:22,866:INFO:Preloading libraries
 2023-09-07 11:38:22,866:INFO:Set up data.
 2023-09-07 11:38:22,869:INFO:Set up index.
+2023-09-07 12:42:04,974:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:42:04,974:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:42:04,974:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:42:04,974:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:42:08,025:INFO:Initializing load_model()
+2023-09-07 12:42:08,025:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-07 12:42:08,139:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-07 12:42:08,170:WARNING:C:\VIT FOLDER\Network Security\Datasets\Grindwall\grindwall.py:200: DeprecationWarning: ssl.wrap_socket() is deprecated, use SSLContext.wrap_socket()
+  httpd.socket = ssl.wrap_socket(httpd.socket, certfile='../server.pem', server_side=True)
+
+2023-09-07 12:45:28,889:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:45:28,889:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:45:28,889:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:45:28,889:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 12:45:30,829:INFO:Initializing load_model()
+2023-09-07 12:45:30,830:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-07 12:45:30,883:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-07 12:45:34,551:INFO:Initializing predict_model()
+2023-09-07 12:45:34,551:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000022F8A416B60>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000022F8A4E5B40>)
+2023-09-07 12:45:34,551:INFO:Checking exceptions
+2023-09-07 12:45:34,551:INFO:Preloading libraries
+2023-09-07 12:45:34,561:INFO:Set up data.
+2023-09-07 12:45:34,580:INFO:Set up index.
+2023-09-07 13:41:01,093:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 13:41:01,094:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 13:41:01,095:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 13:41:01,095:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-07 13:41:04,681:INFO:Initializing load_model()
+2023-09-07 13:41:04,681:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-07 13:41:04,805:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-07 13:41:34,080:INFO:Initializing predict_model()
+2023-09-07 13:41:34,081:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E80F10AB90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AB880>)
+2023-09-07 13:41:34,081:INFO:Checking exceptions
+2023-09-07 13:41:34,082:INFO:Preloading libraries
+2023-09-07 13:41:34,089:INFO:Set up data.
+2023-09-07 13:41:34,120:INFO:Set up index.
+2023-09-07 13:41:34,921:INFO:Initializing predict_model()
+2023-09-07 13:41:34,921:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101929B0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AAEF0>)
+2023-09-07 13:41:34,922:INFO:Checking exceptions
+2023-09-07 13:41:34,922:INFO:Preloading libraries
+2023-09-07 13:41:34,923:INFO:Set up data.
+2023-09-07 13:41:34,937:INFO:Set up index.
+2023-09-07 13:41:42,670:INFO:Initializing predict_model()
+2023-09-07 13:41:42,670:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193580>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AB7F0>)
+2023-09-07 13:41:42,671:INFO:Checking exceptions
+2023-09-07 13:41:42,671:INFO:Preloading libraries
+2023-09-07 13:41:42,671:INFO:Set up data.
+2023-09-07 13:41:42,672:INFO:Set up index.
+2023-09-07 13:41:43,063:INFO:Initializing predict_model()
+2023-09-07 13:41:43,063:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193910>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AB7F0>)
+2023-09-07 13:41:43,063:INFO:Checking exceptions
+2023-09-07 13:41:43,063:INFO:Preloading libraries
+2023-09-07 13:41:43,064:INFO:Set up data.
+2023-09-07 13:41:43,074:INFO:Set up index.
+2023-09-07 13:41:48,022:INFO:Initializing predict_model()
+2023-09-07 13:41:48,022:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101935B0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AB7F0>)
+2023-09-07 13:41:48,023:INFO:Checking exceptions
+2023-09-07 13:41:48,024:INFO:Preloading libraries
+2023-09-07 13:41:48,024:INFO:Set up data.
+2023-09-07 13:41:48,041:INFO:Set up index.
+2023-09-07 13:41:56,975:INFO:Initializing predict_model()
+2023-09-07 13:41:56,976:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193B50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD6C0>)
+2023-09-07 13:41:56,976:INFO:Checking exceptions
+2023-09-07 13:41:56,976:INFO:Preloading libraries
+2023-09-07 13:41:56,979:INFO:Set up data.
+2023-09-07 13:41:56,996:INFO:Set up index.
+2023-09-07 13:41:57,446:INFO:Initializing predict_model()
+2023-09-07 13:41:57,446:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101929B0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AB7F0>)
+2023-09-07 13:41:57,446:INFO:Checking exceptions
+2023-09-07 13:41:57,446:INFO:Preloading libraries
+2023-09-07 13:41:57,447:INFO:Set up data.
+2023-09-07 13:41:57,449:INFO:Set up index.
+2023-09-07 13:42:04,128:INFO:Initializing predict_model()
+2023-09-07 13:42:04,129:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193460>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AAEF0>)
+2023-09-07 13:42:04,129:INFO:Checking exceptions
+2023-09-07 13:42:04,129:INFO:Preloading libraries
+2023-09-07 13:42:04,131:INFO:Set up data.
+2023-09-07 13:42:04,147:INFO:Set up index.
+2023-09-07 13:42:08,329:INFO:Initializing predict_model()
+2023-09-07 13:42:08,329:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193580>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AAEF0>)
+2023-09-07 13:42:08,329:INFO:Checking exceptions
+2023-09-07 13:42:08,330:INFO:Preloading libraries
+2023-09-07 13:42:08,330:INFO:Set up data.
+2023-09-07 13:42:08,337:INFO:Set up index.
+2023-09-07 13:42:08,828:INFO:Initializing predict_model()
+2023-09-07 13:42:08,829:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BD150>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AAEF0>)
+2023-09-07 13:42:08,829:INFO:Checking exceptions
+2023-09-07 13:42:08,829:INFO:Preloading libraries
+2023-09-07 13:42:08,829:INFO:Set up data.
+2023-09-07 13:42:08,840:INFO:Set up index.
+2023-09-07 13:42:09,082:INFO:Initializing predict_model()
+2023-09-07 13:42:09,082:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193460>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101AAEF0>)
+2023-09-07 13:42:09,082:INFO:Checking exceptions
+2023-09-07 13:42:09,083:INFO:Preloading libraries
+2023-09-07 13:42:09,084:INFO:Set up data.
+2023-09-07 13:42:09,091:INFO:Set up index.
+2023-09-07 13:42:48,503:INFO:Initializing predict_model()
+2023-09-07 13:42:48,503:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193AC0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD090>)
+2023-09-07 13:42:48,503:INFO:Checking exceptions
+2023-09-07 13:42:48,503:INFO:Preloading libraries
+2023-09-07 13:42:48,503:INFO:Set up data.
+2023-09-07 13:42:48,521:INFO:Set up index.
+2023-09-07 13:42:51,489:INFO:Initializing predict_model()
+2023-09-07 13:42:51,489:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193B50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD5A0>)
+2023-09-07 13:42:51,489:INFO:Checking exceptions
+2023-09-07 13:42:51,489:INFO:Preloading libraries
+2023-09-07 13:42:51,489:INFO:Set up data.
+2023-09-07 13:42:51,502:INFO:Set up index.
+2023-09-07 14:19:13,246:INFO:Initializing predict_model()
+2023-09-07 14:19:13,246:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BD0C0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 14:19:13,246:INFO:Checking exceptions
+2023-09-07 14:19:13,246:INFO:Preloading libraries
+2023-09-07 14:19:13,254:INFO:Set up data.
+2023-09-07 14:19:13,270:INFO:Set up index.
+2023-09-07 14:19:13,590:INFO:Initializing predict_model()
+2023-09-07 14:19:13,590:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193610>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD900>)
+2023-09-07 14:19:13,590:INFO:Checking exceptions
+2023-09-07 14:19:13,590:INFO:Preloading libraries
+2023-09-07 14:19:13,590:INFO:Set up data.
+2023-09-07 14:19:13,590:INFO:Set up index.
+2023-09-07 14:19:13,695:INFO:Initializing predict_model()
+2023-09-07 14:19:13,695:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193910>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 14:19:13,695:INFO:Checking exceptions
+2023-09-07 14:19:13,695:INFO:Preloading libraries
+2023-09-07 14:19:13,695:INFO:Set up data.
+2023-09-07 14:19:13,695:INFO:Set up index.
+2023-09-07 14:19:13,831:INFO:Initializing predict_model()
+2023-09-07 14:19:13,831:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BD0C0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD900>)
+2023-09-07 14:19:13,831:INFO:Checking exceptions
+2023-09-07 14:19:13,831:INFO:Preloading libraries
+2023-09-07 14:19:13,831:INFO:Set up data.
+2023-09-07 14:19:13,831:INFO:Set up index.
+2023-09-07 17:06:05,642:INFO:Initializing predict_model()
+2023-09-07 17:06:05,642:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193610>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:05,642:INFO:Checking exceptions
+2023-09-07 17:06:05,642:INFO:Preloading libraries
+2023-09-07 17:06:05,642:INFO:Set up data.
+2023-09-07 17:06:05,650:INFO:Set up index.
+2023-09-07 17:06:06,912:INFO:Initializing predict_model()
+2023-09-07 17:06:06,912:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BD180>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD900>)
+2023-09-07 17:06:06,912:INFO:Checking exceptions
+2023-09-07 17:06:06,912:INFO:Preloading libraries
+2023-09-07 17:06:06,920:INFO:Set up data.
+2023-09-07 17:06:06,928:INFO:Set up index.
+2023-09-07 17:06:07,668:INFO:Initializing predict_model()
+2023-09-07 17:06:07,668:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193B50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:07,668:INFO:Checking exceptions
+2023-09-07 17:06:07,668:INFO:Preloading libraries
+2023-09-07 17:06:07,668:INFO:Set up data.
+2023-09-07 17:06:07,685:INFO:Set up index.
+2023-09-07 17:06:09,224:INFO:Initializing predict_model()
+2023-09-07 17:06:09,224:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193580>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:09,224:INFO:Checking exceptions
+2023-09-07 17:06:09,224:INFO:Preloading libraries
+2023-09-07 17:06:09,224:INFO:Set up data.
+2023-09-07 17:06:09,232:INFO:Set up index.
+2023-09-07 17:06:09,688:INFO:Initializing predict_model()
+2023-09-07 17:06:09,696:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BD150>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:09,696:INFO:Checking exceptions
+2023-09-07 17:06:09,696:INFO:Preloading libraries
+2023-09-07 17:06:09,696:INFO:Set up data.
+2023-09-07 17:06:09,712:INFO:Set up index.
+2023-09-07 17:06:10,193:INFO:Initializing predict_model()
+2023-09-07 17:06:10,193:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193610>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD1B0>)
+2023-09-07 17:06:10,193:INFO:Checking exceptions
+2023-09-07 17:06:10,193:INFO:Preloading libraries
+2023-09-07 17:06:10,193:INFO:Set up data.
+2023-09-07 17:06:10,201:INFO:Set up index.
+2023-09-07 17:06:15,225:INFO:Initializing predict_model()
+2023-09-07 17:06:15,225:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810192AA0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:15,225:INFO:Checking exceptions
+2023-09-07 17:06:15,225:INFO:Preloading libraries
+2023-09-07 17:06:15,225:INFO:Set up data.
+2023-09-07 17:06:15,233:INFO:Set up index.
+2023-09-07 17:06:15,682:INFO:Initializing predict_model()
+2023-09-07 17:06:15,682:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810193AC0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD1B0>)
+2023-09-07 17:06:15,682:INFO:Checking exceptions
+2023-09-07 17:06:15,682:INFO:Preloading libraries
+2023-09-07 17:06:15,682:INFO:Set up data.
+2023-09-07 17:06:15,690:INFO:Set up index.
+2023-09-07 17:06:16,024:INFO:Initializing predict_model()
+2023-09-07 17:06:16,024:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E8101BC850>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD990>)
+2023-09-07 17:06:16,024:INFO:Checking exceptions
+2023-09-07 17:06:16,024:INFO:Preloading libraries
+2023-09-07 17:06:16,024:INFO:Set up data.
+2023-09-07 17:06:16,032:INFO:Set up index.
+2023-09-07 17:06:16,274:INFO:Initializing predict_model()
+2023-09-07 17:06:16,274:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E810192AA0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E8101FD1B0>)
+2023-09-07 17:06:16,274:INFO:Checking exceptions
+2023-09-07 17:06:16,274:INFO:Preloading libraries
+2023-09-07 17:06:16,274:INFO:Set up data.
+2023-09-07 17:06:16,282:INFO:Set up index.
+2023-09-18 12:01:59,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:01:59,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:01:59,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:01:59,028:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:02:00,276:INFO:Initializing load_model()
+2023-09-18 12:02:00,277:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:02:00,426:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:02:17,198:INFO:Initializing predict_model()
+2023-09-18 12:02:17,199:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCD23B80>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2560>)
+2023-09-18 12:02:17,199:INFO:Checking exceptions
+2023-09-18 12:02:17,199:INFO:Preloading libraries
+2023-09-18 12:02:17,202:INFO:Set up data.
+2023-09-18 12:02:17,211:INFO:Set up index.
+2023-09-18 12:02:17,817:INFO:Initializing predict_model()
+2023-09-18 12:02:17,818:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3A90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2680>)
+2023-09-18 12:02:17,818:INFO:Checking exceptions
+2023-09-18 12:02:17,818:INFO:Preloading libraries
+2023-09-18 12:02:17,818:INFO:Set up data.
+2023-09-18 12:02:17,822:INFO:Set up index.
+2023-09-18 12:02:20,417:INFO:Initializing predict_model()
+2023-09-18 12:02:20,417:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD2FE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF24D0>)
+2023-09-18 12:02:20,417:INFO:Checking exceptions
+2023-09-18 12:02:20,417:INFO:Preloading libraries
+2023-09-18 12:02:20,417:INFO:Set up data.
+2023-09-18 12:02:20,421:INFO:Set up index.
+2023-09-18 12:02:22,390:INFO:Initializing predict_model()
+2023-09-18 12:02:22,390:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3400>)
+2023-09-18 12:02:22,390:INFO:Checking exceptions
+2023-09-18 12:02:22,390:INFO:Preloading libraries
+2023-09-18 12:02:22,390:INFO:Set up data.
+2023-09-18 12:02:22,397:INFO:Set up index.
+2023-09-18 12:02:27,091:INFO:Initializing predict_model()
+2023-09-18 12:02:27,091:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BB0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2680>)
+2023-09-18 12:02:27,091:INFO:Checking exceptions
+2023-09-18 12:02:27,091:INFO:Preloading libraries
+2023-09-18 12:02:27,091:INFO:Set up data.
+2023-09-18 12:02:27,095:INFO:Set up index.
+2023-09-18 12:02:27,221:INFO:Initializing predict_model()
+2023-09-18 12:02:27,221:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3D00>)
+2023-09-18 12:02:27,221:INFO:Checking exceptions
+2023-09-18 12:02:27,221:INFO:Preloading libraries
+2023-09-18 12:02:27,221:INFO:Set up data.
+2023-09-18 12:02:27,224:INFO:Set up index.
+2023-09-18 12:02:27,352:INFO:Initializing predict_model()
+2023-09-18 12:02:27,352:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3A90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2680>)
+2023-09-18 12:02:27,352:INFO:Checking exceptions
+2023-09-18 12:02:27,352:INFO:Preloading libraries
+2023-09-18 12:02:27,352:INFO:Set up data.
+2023-09-18 12:02:27,357:INFO:Set up index.
+2023-09-18 12:03:08,291:INFO:Initializing predict_model()
+2023-09-18 12:03:08,291:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD2FE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF35B0>)
+2023-09-18 12:03:08,291:INFO:Checking exceptions
+2023-09-18 12:03:08,291:INFO:Preloading libraries
+2023-09-18 12:03:08,292:INFO:Set up data.
+2023-09-18 12:03:08,296:INFO:Set up index.
+2023-09-18 12:03:08,539:INFO:Initializing predict_model()
+2023-09-18 12:03:08,539:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:08,540:INFO:Checking exceptions
+2023-09-18 12:03:08,540:INFO:Preloading libraries
+2023-09-18 12:03:08,540:INFO:Set up data.
+2023-09-18 12:03:08,545:INFO:Set up index.
+2023-09-18 12:03:08,670:INFO:Initializing predict_model()
+2023-09-18 12:03:08,670:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3400>)
+2023-09-18 12:03:08,671:INFO:Checking exceptions
+2023-09-18 12:03:08,671:INFO:Preloading libraries
+2023-09-18 12:03:08,671:INFO:Set up data.
+2023-09-18 12:03:08,674:INFO:Set up index.
+2023-09-18 12:03:08,822:INFO:Initializing predict_model()
+2023-09-18 12:03:08,822:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:08,823:INFO:Checking exceptions
+2023-09-18 12:03:08,823:INFO:Preloading libraries
+2023-09-18 12:03:08,823:INFO:Set up data.
+2023-09-18 12:03:08,826:INFO:Set up index.
+2023-09-18 12:03:09,019:INFO:Initializing predict_model()
+2023-09-18 12:03:09,019:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3400>)
+2023-09-18 12:03:09,019:INFO:Checking exceptions
+2023-09-18 12:03:09,020:INFO:Preloading libraries
+2023-09-18 12:03:09,020:INFO:Set up data.
+2023-09-18 12:03:09,023:INFO:Set up index.
+2023-09-18 12:03:09,208:INFO:Initializing predict_model()
+2023-09-18 12:03:09,208:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:09,208:INFO:Checking exceptions
+2023-09-18 12:03:09,208:INFO:Preloading libraries
+2023-09-18 12:03:09,208:INFO:Set up data.
+2023-09-18 12:03:09,212:INFO:Set up index.
+2023-09-18 12:03:09,343:INFO:Initializing predict_model()
+2023-09-18 12:03:09,343:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:09,343:INFO:Checking exceptions
+2023-09-18 12:03:09,343:INFO:Preloading libraries
+2023-09-18 12:03:09,343:INFO:Set up data.
+2023-09-18 12:03:09,350:INFO:Set up index.
+2023-09-18 12:03:09,588:INFO:Initializing predict_model()
+2023-09-18 12:03:09,588:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:09,589:INFO:Checking exceptions
+2023-09-18 12:03:09,589:INFO:Preloading libraries
+2023-09-18 12:03:09,589:INFO:Set up data.
+2023-09-18 12:03:09,595:INFO:Set up index.
+2023-09-18 12:03:09,709:INFO:Initializing predict_model()
+2023-09-18 12:03:09,709:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:09,709:INFO:Checking exceptions
+2023-09-18 12:03:09,709:INFO:Preloading libraries
+2023-09-18 12:03:09,709:INFO:Set up data.
+2023-09-18 12:03:09,720:INFO:Set up index.
+2023-09-18 12:03:09,838:INFO:Initializing predict_model()
+2023-09-18 12:03:09,838:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:09,838:INFO:Checking exceptions
+2023-09-18 12:03:09,838:INFO:Preloading libraries
+2023-09-18 12:03:09,839:INFO:Set up data.
+2023-09-18 12:03:09,848:INFO:Set up index.
+2023-09-18 12:03:09,975:INFO:Initializing predict_model()
+2023-09-18 12:03:09,975:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:09,975:INFO:Checking exceptions
+2023-09-18 12:03:09,975:INFO:Preloading libraries
+2023-09-18 12:03:09,976:INFO:Set up data.
+2023-09-18 12:03:09,982:INFO:Set up index.
+2023-09-18 12:03:10,107:INFO:Initializing predict_model()
+2023-09-18 12:03:10,107:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:10,107:INFO:Checking exceptions
+2023-09-18 12:03:10,107:INFO:Preloading libraries
+2023-09-18 12:03:10,107:INFO:Set up data.
+2023-09-18 12:03:10,112:INFO:Set up index.
+2023-09-18 12:03:10,243:INFO:Initializing predict_model()
+2023-09-18 12:03:10,243:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:10,243:INFO:Checking exceptions
+2023-09-18 12:03:10,243:INFO:Preloading libraries
+2023-09-18 12:03:10,244:INFO:Set up data.
+2023-09-18 12:03:10,253:INFO:Set up index.
+2023-09-18 12:03:10,388:INFO:Initializing predict_model()
+2023-09-18 12:03:10,388:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:10,388:INFO:Checking exceptions
+2023-09-18 12:03:10,388:INFO:Preloading libraries
+2023-09-18 12:03:10,389:INFO:Set up data.
+2023-09-18 12:03:10,392:INFO:Set up index.
+2023-09-18 12:03:10,520:INFO:Initializing predict_model()
+2023-09-18 12:03:10,520:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF30A0>)
+2023-09-18 12:03:10,520:INFO:Checking exceptions
+2023-09-18 12:03:10,520:INFO:Preloading libraries
+2023-09-18 12:03:10,521:INFO:Set up data.
+2023-09-18 12:03:10,524:INFO:Set up index.
+2023-09-18 12:03:10,645:INFO:Initializing predict_model()
+2023-09-18 12:03:10,646:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3BE0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:10,646:INFO:Checking exceptions
+2023-09-18 12:03:10,646:INFO:Preloading libraries
+2023-09-18 12:03:10,646:INFO:Set up data.
+2023-09-18 12:03:10,650:INFO:Set up index.
+2023-09-18 12:03:37,595:INFO:Initializing predict_model()
+2023-09-18 12:03:37,595:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:37,595:INFO:Checking exceptions
+2023-09-18 12:03:37,595:INFO:Preloading libraries
+2023-09-18 12:03:37,596:INFO:Set up data.
+2023-09-18 12:03:37,601:INFO:Set up index.
+2023-09-18 12:03:38,650:INFO:Initializing predict_model()
+2023-09-18 12:03:38,650:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3F40>)
+2023-09-18 12:03:38,650:INFO:Checking exceptions
+2023-09-18 12:03:38,650:INFO:Preloading libraries
+2023-09-18 12:03:38,650:INFO:Set up data.
+2023-09-18 12:03:38,653:INFO:Set up index.
+2023-09-18 12:03:39,551:INFO:Initializing predict_model()
+2023-09-18 12:03:39,551:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF2290>)
+2023-09-18 12:03:39,551:INFO:Checking exceptions
+2023-09-18 12:03:39,551:INFO:Preloading libraries
+2023-09-18 12:03:39,551:INFO:Set up data.
+2023-09-18 12:03:39,555:INFO:Set up index.
+2023-09-18 12:03:41,100:INFO:Initializing predict_model()
+2023-09-18 12:03:41,100:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD0310>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3F40>)
+2023-09-18 12:03:41,100:INFO:Checking exceptions
+2023-09-18 12:03:41,101:INFO:Preloading libraries
+2023-09-18 12:03:41,101:INFO:Set up data.
+2023-09-18 12:03:41,105:INFO:Set up index.
+2023-09-18 12:03:43,684:INFO:Initializing predict_model()
+2023-09-18 12:03:43,684:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCDD3A90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3E20>)
+2023-09-18 12:03:43,684:INFO:Checking exceptions
+2023-09-18 12:03:43,684:INFO:Preloading libraries
+2023-09-18 12:03:43,685:INFO:Set up data.
+2023-09-18 12:03:43,688:INFO:Set up index.
+2023-09-18 12:03:48,102:INFO:Initializing predict_model()
+2023-09-18 12:03:48,102:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000258DCD4B670>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000258DCDF3D90>)
+2023-09-18 12:03:48,102:INFO:Checking exceptions
+2023-09-18 12:03:48,102:INFO:Preloading libraries
+2023-09-18 12:03:48,102:INFO:Set up data.
+2023-09-18 12:03:48,105:INFO:Set up index.
+2023-09-18 12:04:29,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:29,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:29,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:29,356:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:30,716:INFO:Initializing load_model()
+2023-09-18 12:04:30,716:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:04:30,760:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:04:40,559:INFO:Initializing predict_model()
+2023-09-18 12:04:40,559:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001BA74913400>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA749E25F0>)
+2023-09-18 12:04:40,559:INFO:Checking exceptions
+2023-09-18 12:04:40,559:INFO:Preloading libraries
+2023-09-18 12:04:40,564:INFO:Set up data.
+2023-09-18 12:04:40,571:INFO:Set up index.
+2023-09-18 12:04:57,923:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:57,923:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:57,923:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:57,923:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:04:59,148:INFO:Initializing load_model()
+2023-09-18 12:04:59,148:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:04:59,188:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:05:04,402:INFO:Initializing predict_model()
+2023-09-18 12:05:04,402:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AC71543400>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002AC716125F0>)
+2023-09-18 12:05:04,402:INFO:Checking exceptions
+2023-09-18 12:05:04,403:INFO:Preloading libraries
+2023-09-18 12:05:04,403:INFO:Set up data.
+2023-09-18 12:05:04,410:INFO:Set up index.
+2023-09-18 12:21:51,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:21:51,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:21:51,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:21:51,455:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:21:54,236:INFO:Initializing load_model()
+2023-09-18 12:21:54,237:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:21:54,542:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:22:09,508:INFO:Initializing predict_model()
+2023-09-18 12:22:09,508:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001E637FC3B50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001E638092560>)
+2023-09-18 12:22:09,508:INFO:Checking exceptions
+2023-09-18 12:22:09,508:INFO:Preloading libraries
+2023-09-18 12:22:09,511:INFO:Set up data.
+2023-09-18 12:22:09,518:INFO:Set up index.
+2023-09-18 12:23:32,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:23:32,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:23:32,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:23:32,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:23:33,481:INFO:Initializing load_model()
+2023-09-18 12:23:33,481:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:23:33,526:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:23:37,652:INFO:Initializing predict_model()
+2023-09-18 12:23:37,652:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001A14CB33430>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001A14CC02290>)
+2023-09-18 12:23:37,652:INFO:Checking exceptions
+2023-09-18 12:23:37,652:INFO:Preloading libraries
+2023-09-18 12:23:37,654:INFO:Set up data.
+2023-09-18 12:23:37,662:INFO:Set up index.
+2023-09-18 12:52:37,715:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:52:37,716:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:52:37,716:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:52:37,716:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 12:52:39,245:INFO:Initializing load_model()
+2023-09-18 12:52:39,245:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 12:52:39,299:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 12:53:26,800:INFO:Initializing predict_model()
+2023-09-18 12:53:26,800:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D6D4E03220>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D6D4EB24D0>)
+2023-09-18 12:53:26,800:INFO:Checking exceptions
+2023-09-18 12:53:26,800:INFO:Preloading libraries
+2023-09-18 12:53:26,802:INFO:Set up data.
+2023-09-18 12:53:26,812:INFO:Set up index.
+2023-09-18 12:54:02,623:INFO:Initializing predict_model()
+2023-09-18 12:54:02,623:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D6D4E8F820>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D6D4EB2290>)
+2023-09-18 12:54:02,623:INFO:Checking exceptions
+2023-09-18 12:54:02,623:INFO:Preloading libraries
+2023-09-18 12:54:02,623:INFO:Set up data.
+2023-09-18 12:54:02,627:INFO:Set up index.
+2023-09-18 12:54:14,702:INFO:Initializing predict_model()
+2023-09-18 12:54:14,702:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D6D4E8F820>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D6D4F1C9D0>)
+2023-09-18 12:54:14,702:INFO:Checking exceptions
+2023-09-18 12:54:14,702:INFO:Preloading libraries
+2023-09-18 12:54:14,702:INFO:Set up data.
+2023-09-18 12:54:14,706:INFO:Set up index.
+2023-09-18 13:01:17,283:INFO:Initializing predict_model()
+2023-09-18 13:01:17,283:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D6D4E8CB50>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D6D4EB2290>)
+2023-09-18 13:01:17,284:INFO:Checking exceptions
+2023-09-18 13:01:17,284:INFO:Preloading libraries
+2023-09-18 13:01:17,284:INFO:Set up data.
+2023-09-18 13:01:17,289:INFO:Set up index.
+2023-09-18 13:01:59,515:INFO:Initializing predict_model()
+2023-09-18 13:01:59,515:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001D6D4E8F910>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D6D4EB24D0>)
+2023-09-18 13:01:59,516:INFO:Checking exceptions
+2023-09-18 13:01:59,516:INFO:Preloading libraries
+2023-09-18 13:01:59,516:INFO:Set up data.
+2023-09-18 13:01:59,519:INFO:Set up index.
+2023-09-18 13:12:50,928:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:12:50,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:12:50,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:12:50,929:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:12:52,272:INFO:Initializing load_model()
+2023-09-18 13:12:52,272:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 13:12:52,313:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 13:13:08,311:INFO:Initializing predict_model()
+2023-09-18 13:13:08,311:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000142E98A38B0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', AdaBoostClassifier(random_state=4967))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000142E99524D0>)
+2023-09-18 13:13:08,311:INFO:Checking exceptions
+2023-09-18 13:13:08,311:INFO:Preloading libraries
+2023-09-18 13:13:08,312:INFO:Set up data.
+2023-09-18 13:13:08,316:INFO:Set up index.
+2023-09-18 13:40:51,287:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:40:51,287:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:40:51,287:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:40:51,288:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 13:40:52,872:INFO:Initializing load_model()
+2023-09-18 13:40:52,872:INFO:load_model(model_name=model2_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 13:40:52,915:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.0.4', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 14:15:48,107:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 14:15:48,107:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 14:15:48,107:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 14:15:48,107:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-18 14:15:49,352:INFO:Initializing load_model()
+2023-09-18 14:15:49,352:INFO:load_model(model_name=model3_grindwall, platform=None, authentication=None, verbose=True)
+2023-09-18 14:15:49,409:WARNING:C:\Users\siddh\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py:135: UserWarning: Version mismatch:
+current: {'deps_info': {'pip': '23.2.1', 'setuptools': '57.4.0', 'pycaret': '3.0.4', 'IPython': '8.11.0', 'ipywidgets': '8.0.5', 'tqdm': '4.62.3', 'numpy': '1.23.0', 'pandas': '1.5.3', 'jinja2': '3.0.3', 'scipy': '1.9.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.11.0', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.28.1', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.16.1', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.22.0', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.4', 'markupsafe': '2.0.1', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': 'Not installed'}, 'python': {'version': '3.10.0', 'machine': 'AMD64'}}
+pickle: {'deps_info': {'pip': '23.1.2', 'setuptools': '67.7.2', 'pycaret': '3.1.0', 'IPython': '7.34.0', 'ipywidgets': '7.7.1', 'tqdm': '4.66.1', 'numpy': '1.23.5', 'pandas': '1.5.3', 'jinja2': '3.1.2', 'scipy': '1.10.1', 'joblib': '1.3.2', 'sklearn': '1.2.2', 'pyod': '1.1.0', 'imblearn': '0.10.1', 'category_encoders': '2.6.2', 'lightgbm': '4.0.0', 'numba': '0.56.4', 'requests': '2.31.0', 'matplotlib': '3.7.1', 'scikitplot': '0.3.7', 'yellowbrick': '1.5', 'plotly': '5.15.0', 'plotly-resampler': 'Not installed', 'kaleido': '0.2.1', 'schemdraw': '0.15', 'statsmodels': '0.14.0', 'sktime': '0.21.1', 'tbats': '1.1.3', 'pmdarima': '2.0.3', 'psutil': '5.9.5', 'markupsafe': '2.1.3', 'pickle5': 'Not installed', 'cloudpickle': '2.2.1', 'deprecation': '2.1.0', 'xxhash': '3.3.0', 'wurlitzer': '3.0.3'}, 'python': {'version': '3.10.12', 'machine': 'x86_64'}}
+  warnings.warn(
+
+2023-09-18 14:16:09,911:INFO:Initializing predict_model()
+2023-09-18 14:16:09,911:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE345B970>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE3516290>)
+2023-09-18 14:16:09,911:INFO:Checking exceptions
+2023-09-18 14:16:09,911:INFO:Preloading libraries
+2023-09-18 14:16:09,916:INFO:Set up data.
+2023-09-18 14:16:09,929:INFO:Set up index.
+2023-09-18 14:16:10,547:INFO:Initializing predict_model()
+2023-09-18 14:16:10,547:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE34D9E40>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE35164D0>)
+2023-09-18 14:16:10,547:INFO:Checking exceptions
+2023-09-18 14:16:10,548:INFO:Preloading libraries
+2023-09-18 14:16:10,548:INFO:Set up data.
+2023-09-18 14:16:10,554:INFO:Set up index.
+2023-09-18 14:16:17,649:INFO:Initializing predict_model()
+2023-09-18 14:16:17,649:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE34D9E40>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE35164D0>)
+2023-09-18 14:16:17,649:INFO:Checking exceptions
+2023-09-18 14:16:17,649:INFO:Preloading libraries
+2023-09-18 14:16:17,649:INFO:Set up data.
+2023-09-18 14:16:17,654:INFO:Set up index.
+2023-09-18 14:16:25,751:INFO:Initializing predict_model()
+2023-09-18 14:16:25,751:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE34D9E40>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE355A950>)
+2023-09-18 14:16:25,751:INFO:Checking exceptions
+2023-09-18 14:16:25,751:INFO:Preloading libraries
+2023-09-18 14:16:25,752:INFO:Set up data.
+2023-09-18 14:16:25,755:INFO:Set up index.
+2023-09-18 14:16:32,881:INFO:Initializing predict_model()
+2023-09-18 14:16:32,881:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE34D9E40>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE3516680>)
+2023-09-18 14:16:32,882:INFO:Checking exceptions
+2023-09-18 14:16:32,882:INFO:Preloading libraries
+2023-09-18 14:16:32,882:INFO:Set up data.
+2023-09-18 14:16:32,886:INFO:Set up index.
+2023-09-18 14:16:38,468:INFO:Initializing predict_model()
+2023-09-18 14:16:38,469:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000021BE34D9E40>, estimator=Pipeline(steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Single Quotes', 'Double Quotes',
+                                             'Dashes', 'Braces', 'Spaces',
+                                             'Tags', 'Colons', 'Backtick',
+                                             'Bad Words', 'XSS Check',
+                                             'XSS Word'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestClassifier(n_jobs=-1, random_state=6062))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021BE355A7A0>)
+2023-09-18 14:16:38,469:INFO:Checking exceptions
+2023-09-18 14:16:38,469:INFO:Preloading libraries
+2023-09-18 14:16:38,469:INFO:Set up data.
+2023-09-18 14:16:38,473:INFO:Set up index.

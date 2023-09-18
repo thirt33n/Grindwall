@@ -3,6 +3,7 @@ from urllib import request,error
 import urllib.parse
 import http.cookiejar
 import sys
+import requests
 from pycaret.classification import *
 import pandas as pd
 import logging
@@ -11,11 +12,14 @@ from datetime import datetime
 
 
 
+nttfy_docker='https://ntfy.sh/th1rt33n'
+data = 'Malicious Request Detected'
+
 #Logging
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(message)s')  
 
 
-model = load_model('model2_grindwall')
+model = load_model('model3_grindwall')
 
 cookies = http.cookiejar.CookieJar()
 
@@ -66,12 +70,14 @@ def extractDF(method,path,body):
     xss_count = xss_count1+xss_count2
     xss_check = regex_xss_check(path)
     datas = [single_quotes, double_quotes, dashes, braces, spaces,tags,colons,backtick, bad_words_count,xss_check,xss_count]
+    log_data = [method,path,body]
     input = pd.DataFrame([datas], columns=['Single Quotes', 'Double Quotes', 'Dashes', 'Braces', 'Spaces','Tags','Colons','Backtick', 'Bad Words','XSS Check','XSS Word'])
-    return input
+    log = pd.DataFrame([log_data],columns=['Method','Path','Body'])
+    return input,log
 
 def prediction(input):
     prediction = predict_model(model,data=input)
-    # op = predict_model.loc[0,'prediction_label']
+ 
     return prediction
 
 class SimpleHttpProxy(SimpleHTTPRequestHandler):
@@ -93,23 +99,39 @@ class SimpleHttpProxy(SimpleHTTPRequestHandler):
             response = request.urlopen(full_url)
             content = response.read()
 
-            inp = extractDF(method,path,body)
+            inp,log = extractDF(method,path,body)
             
             pred = prediction(inp)
-            
+
+            result = pd.concat([log,pred],axis=1)
+
+            result.to_csv('log_dataset.csv',mode='a',header=False,index=False)        
+
+
             print(pred)
             pp = pred['prediction_label'].to_string()
             
             log_message = f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} - GET Prediction: {pred.to_string()}"
             logging.info(log_message)
-            if 'bad' in pp:
-                self.send_response(403)
-                self.end_headers()
-                self.wfile.write(b"Blocked by THE GRINDWALL")
-            else:
+            if 'good' in pp:
                 self.send_response(200)
                 self.end_headers()
                 self.wfile.write(content)
+       
+    		                
+            else:
+                self.send_response(403)
+                self.end_headers()
+                self.wfile.write(b"Blocked by THE GRINDWALL")
+                
+                try:
+                    resp = requests.post(nttfy_docker,data=data)
+                    resp.raise_for_status()
+                except requests.exceptions.HTTPError as err:
+                    print(f"HTTP Error {resp.status_code}: {err}")
+    		        
+                except requests.exceptions.RequestException as err:
+                     print(f"Request Error: {err}")
         except Exception as e:
             logging.error(f"Error in the GET request: str{e}")
 
@@ -125,9 +147,13 @@ class SimpleHttpProxy(SimpleHTTPRequestHandler):
             response = request.urlopen(full_url)
             content = response.read()
 
-            inp = extractDF(method,path,body)
-        
+            inp,log = extractDF(method,path,body)
+            
             pred = prediction(inp)
+
+            result = pd.concat([log,pred],axis=1)
+
+            result.to_csv('log_dataset.csv',mode='a',header=False,index=False) 
         
             print(pred)
             log_message = f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} - POST Prediction: {pred.to_string()}"
@@ -135,14 +161,26 @@ class SimpleHttpProxy(SimpleHTTPRequestHandler):
             pp = pred['prediction_label'].to_string()
             # print(pp)
             # pred = 'bad'
-            if 'bad' in pp:
-                self.send_response(403)
-                self.end_headers()
-                self.wfile.write(b"Blocked by THE GRINDWALL")
-            else:
+            if 'good' in pp:
                 self.send_response(200)
                 self.end_headers()
                 self.wfile.write(content)
+    		        
+                
+            else:
+                
+                self.send_response(403)
+                self.end_headers()
+                self.wfile.write(b"Blocked by THE GRINDWALL")
+                
+                try:
+                    resp = requests.post(nttfy_docker,data=data)
+                    resp.raise_for_status()
+                except requests.exceptions.HTTPError as err:
+                    print(f"HTTP Error {resp.status_code}: {err}")
+    		        
+                except requests.exceptions.RequestException as err:
+                    print(f"Request Error: {err}")
         except Exception as e:
             logging.error(f"Error in POST requests: {str(e)}")
 
