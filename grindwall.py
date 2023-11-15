@@ -19,7 +19,7 @@ data = 'Malicious Request Detected'
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(message)s')  
 
 
-model = load_model('model3_grindwall')
+model = load_model('model4_grindwall')
 
 cookies = http.cookiejar.CookieJar()
 
@@ -27,6 +27,28 @@ cookies = http.cookiejar.CookieJar()
 
 bad_words = ['sleep', 'drop', 'uid', 'select', 'waitfor', 'delay', 'system', 'union', 'order by', 'delete', 'group by', 'insert', 'or']
 xss = ['script','img','a','javascript','svg','onclick']
+cmd = ['id','ls','dir','ping','uname','exec','nc','bash']
+
+
+def cmdi_check(path,body):
+
+    cmdi_patterns = [
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)',
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)\s*',
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)\s*[\\"\']?[^\\n\\r]*',
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)\s*[\\"\']?[^\\"\']*[\\"\']?',
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)[\s\w]*',
+      r'(?:;|&|\||`|\$\(.*\)|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)[^\r\n]*'
+
+    ]
+
+    counter = 0
+    #cmdi_pattern = r'(?:;|&|\||`|\$\(|\b(?:exec|system|shell_exec|passthru|popen|proc_open|pcntl_exec|eval|etc|bin|ls|id|uname|dir|ping|nc|bash)\b)'
+    for pattern in cmdi_patterns:
+
+        if re.search(pattern,path) or  re.search(pattern,body):
+            counter+=1
+    return counter
 
 
 def regex_xss_check(path):
@@ -69,9 +91,19 @@ def extractDF(method,path,body):
     bad_words_count = bad_words_count1+ bad_words_count2
     xss_count = xss_count1+xss_count2
     xss_check = regex_xss_check(path)
-    datas = [single_quotes, double_quotes, dashes, braces, spaces,tags,colons,backtick, bad_words_count,xss_check,xss_count]
+    cmdi_c = cmdi_check(path,body)
+    cmdi_words1 = sum(1 for word in cmd if re.search(r'\b' + re.escape(word) + r'\b', path, re.IGNORECASE))
+    cmdi_words2 = sum(1 for word in cmd if re.search(r'\b' + re.escape(word) + r'\b', body, re.IGNORECASE))
+    cmdi_words = cmdi_words1+cmdi_words2
+
+
+
+    datas = [single_quotes, double_quotes, dashes, braces, spaces,tags,colons,backtick, bad_words_count,xss_check,xss_count,cmdi_words,cmdi_c]
+    
     log_data = [method,path,body]
-    input = pd.DataFrame([datas], columns=['Single Quotes', 'Double Quotes', 'Dashes', 'Braces', 'Spaces','Tags','Colons','Backtick', 'Bad Words','XSS Check','XSS Word'])
+    
+    input = pd.DataFrame([datas], columns=['Single Quotes', 'Double Quotes', 'Dashes', 'Braces', 'Spaces','Tags','Colons','Backtick', 'Bad Words','XSS Check','XSS Word','Cmdi Word','Cmdi Check'])
+    
     log = pd.DataFrame([log_data],columns=['Method','Path','Body'])
     return input,log
 
