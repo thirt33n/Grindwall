@@ -8,7 +8,7 @@
 Grindwall is an ML based Firewall System that uses a machine learning model to filter out bad or malicious requests to the server.
 </br>
 <br>
-<li>It uses Random Forest Classification model to determine the nature of incoming packets and classifies them as 'good' or 'bad' packets.
+<li>Each model uses a specefic classification algorithm to determine the nature of incoming packets and classifies them on the basis of the vulnerability that the request tries to exploit.
 </li>
 <li>Bad Packets are dropped by the server and the client is displayed with a message.
 </li>
@@ -16,16 +16,29 @@ Grindwall is an ML based Firewall System that uses a machine learning model to f
 ## Contents:
 
 <ol>
-<li>full_xss_sqli_dataset.csv =  Dataset for training the model
-<li>model1_grindwall.pkl  = The saved model checkpoint which is loaded into the script for use in the firewall
+  <h3>Datasets</h3>
+<li>full_xss_sqli_dataset.csv =  Dataset for training the model - Version 1
+<li>version_4_full.csv - Full dataset for Version 4(includes cmdi)
+<li>new_specs_dataset.csv - Dataset for classifying according to vulnerability.
+
+  <h3>Scripts<h3>
+
 <li>network_sec.ipynb = Notebook file used for creating the model and other operations related to ML
 <li>grindwall.py = Main Script used to setup the firewall
 <li>requirements.txt = Python Requirements for running the script
-<li>sqlInjection.txt = Wordlist containing payloads for SQL injection attacks used for dataset preparation
 <li>test.csv = Dataset used for testing the model
 <li>gring_gui.py = Scipt to run Grindwall as GUI
-<li>model2_grindwall = The saved model Checkpoint, which filters sql injections and XSS payloads
+  
+  <h4>Models</h4>
+  
+<li>model1_grindwall.pkl  = The saved model checkpoint which is loaded into the script for use in the firewall, only filters sqli - Uses Random Forest Classifier
+<li>model2_grindwall = The saved model Checkpoint, which filters sql injections and XSS payloads - Uses Ada Boost Classifier
+<li>model3_grindwall = Saved Model checkpoint that filters on the basis of the vulnerability that the packet tries to exploit; "sqli","xss" or "good"- Uses Random Forest Classifier </li>
+<li>model4_grindwall = Saved Model checkpoint that filters on the basis of the vulnerability that the packet tries to exploit; "sqli","xss","cmdi" or "good" - Uses Light Gradient Boosting Machine  Classification</li>
+  <h3>Wordlists</h3>
+<li>sqlInjection.txt = Wordlist containing payloads for SQL injection attacks used for dataset preparation
 <li>xss_payloads.txt = Wordlist containing XSS payloads
+<li>cmdi_payloads.txt = Wordlist containing cmdi payloads
 
 </ol>
 
