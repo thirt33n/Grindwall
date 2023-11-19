@@ -4,13 +4,15 @@ import os
 import colorama
 from colorama import Fore, Style
 import socket
+import time
 import requests
+import analytics
 go = cdll.LoadLibrary('./goScanner/pythonScanner.so')
 
 
 os.system("pyfiglet --color white -j center -w 200 -f starwars GRINDWALL")
 
-
+time.sleep(1)
 def get_local_ip():
     local_ip = ""
     try:
@@ -56,16 +58,20 @@ pub_ip = get_public_ip()
 
 
 print("Operating System:  ",ops)
+time.sleep(1)
 print("Release:           ",release)
+time.sleep(1)
 print("Version:           ",version)
+time.sleep(1)
 #print("Processor:         ",processor)
 print("Local IP address:  ",ip_addr)
-print("Public IP address  ",pub_ip)
+time.sleep(1)
+print("Public IP address: ",pub_ip)
 
 
 def menu_card():
 
-    print(f"{Fore.YELLOW}[1] Start Grindwall")
+    print(f"\n\n{Fore.YELLOW}[1] Start Grindwall")
     print(f"{Fore.YELLOW}[2] Port Scan Server")
     print(f"{Fore.YELLOW}[3] Analytics")
     print(f"{Fore.RED}[4] Quit")
@@ -83,6 +89,7 @@ def get_user_choice():
 def main():
    
     while True:
+        time.sleep(0.5)
         menu_card()
         user_choice = get_user_choice()
 
@@ -96,10 +103,13 @@ def main():
                     print(f"\n{Fore.GREEN}Starting Grindwall.....")
                     os.system("python3 ./grindwall.py")
                 if user_choice == 2:
-                    print(f"\n{Fore.GREEN}Open Ports on the server:   \n\n")
-                    go.fastScanner()
+                    if 'posix' not in ops:
+                        print(f"{Fore.RED}This Feature is Not yet Available on Non-Linux Systems")
+                    else:
+                        print(f"\n{Fore.GREEN}Open Ports on the server:   \n\n")
+                        go.fastScanner()
                 if user_choice == 3:
-                    print("ANALYTICS")
+                    analytics.analytics_v4()
                 
             else:
                 print(f"{Fore.RED}Invalid choice. Please choose a valid option.")

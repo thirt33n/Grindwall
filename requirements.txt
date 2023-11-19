@@ -6,7 +6,7 @@ customtkinter
 logging
 pycaret
 pyfiglet
-
+colorama
 
 
 
