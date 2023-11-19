@@ -4,3 +4,10 @@ pandas
 tk
 customtkinter
 logging
+pycaret
+pyfiglet
+
+
+
+
+

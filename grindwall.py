@@ -19,7 +19,7 @@ data = 'Malicious Request Detected'
 logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s - %(message)s')  
 
 
-model = load_model('model4_grindwall')
+model = load_model('model3_grindwall')
 
 cookies = http.cookiejar.CookieJar()
 
