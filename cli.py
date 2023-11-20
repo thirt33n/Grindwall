@@ -7,7 +7,7 @@ import socket
 import time
 import requests
 import analytics
-go = cdll.LoadLibrary('./goScanner/pythonScanner.so')
+
 
 
 os.system("pyfiglet --color white -j center -w 200 -f starwars GRINDWALL")
@@ -106,6 +106,7 @@ def main():
                     if 'posix' not in ops:
                         print(f"{Fore.RED}This Feature is Not yet Available on Non-Linux Systems")
                     else:
+                        go = cdll.LoadLibrary('./goScanner/pythonScanner.so')
                         print(f"\n{Fore.GREEN}Open Ports on the server:   \n\n")
                         go.fastScanner()
                 if user_choice == 3:

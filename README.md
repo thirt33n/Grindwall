@@ -45,22 +45,25 @@ Grindwall is an ML based Firewall System that uses a machine learning model to f
 
 ## Installation And Working
 
-<li>
-Clone this Repo
-<li>Install the requirements using the command <br>
-``` pip install -r requirements.txt ``` 
-</br>
-<li>Once dependencies are installed run 
-<br>
-```python grindwall.py```
-</br>
-<br>
-<img src="./images/image1.png" alt="Initilisation">
-<br>
+
+* Clone this Repo
+Install the requirements using the command 
+ ```python
+ pip install -r requirements.txt  
+ ```
+* Once dependencies are installed run 
+
+```python 
+python cli.py
+```
+![Grindwall CLI](images/image.png)
+
 <li>Alternatively you can also run the GUI version of Grindwall using :
-<br></br><br></br>
-```python gring_gui.py```
-<br></br>
+
+```python
+python gring_gui.py
+```
+
 <img src="./images/image5.png" alt="grindwall GUI">
 <br></br><br></br>
 <li> Once the firewall is up and running configure your browser or computer to utilize proxy server running on port 1234 ( You can change this setting in grindwall.py file). <br>
@@ -82,7 +85,7 @@ Or you can use extensions like <a href="https://chrome.google.com/webstore/detai
 <br>
 <img src="./images/image3.png" alt="Block message">
 </br><br>
-<li>The terminal log displays the prediction label as 'bad'
+<li>The terminal log displays the prediction label according to the vulnerability
 <br></br>
 <img src="./images/image4.png" alt="Terminal Information">
 
@@ -91,9 +94,9 @@ Or you can use extensions like <a href="https://chrome.google.com/webstore/detai
 ### Support for other Web Vulnerabilities Including 
 
 <li> Cross Site Scripting = Completed
-<li> File Inclusion
-<li> Command Injections
+<li> Command Injections = Completed
 <li> Support For HTTPS connections
 <li> Comprehensive GUI
+<li>Analytics
 
 
